@@ -5,7 +5,7 @@
 A demo docker-compose manifest is available in the `docker-compose/local` folder. It will launch a kafka broker, a zookeeper and all the micro services from the solution.
 
 ```
-$ cd docker-compose/local
+$ cd docker-compose/dev
 $ docker-compose up -d
 ```
 
