@@ -11,7 +11,7 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
 
   kafka:
-    image: confluentinc/cp-enterprise-kafka:5.3.1
+    image: confluentinc/cp-enterprise-kafka:5.5.1
     container_name: microservices-dev-kafka
     hostname: kafka
     depends_on:
@@ -34,7 +34,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
 
   schemaregistry:
-    image: confluentinc/cp-schema-registry:5.3.1
+    image: confluentinc/cp-schema-registry:5.5.1
     container_name: microservices-dev-sr
     restart: always
     depends_on:
@@ -49,7 +49,7 @@ services:
       - 8085:8085
 
   connect:
-    image: confluentinc/cp-kafka-connect:5.3.1
+    image: confluentinc/cp-kafka-connect:5.5.1
     container_name: microservices-dev-connect
     restart: always
     ports:
@@ -84,7 +84,7 @@ services:
       CLASSPATH: /usr/share/java/monitoring-interceptors/monitoring-interceptors-5.3.1.jar
 
   control-center:
-    image: confluentinc/cp-enterprise-control-center:5.3.1
+    image: confluentinc/cp-enterprise-control-center:5.5.1
     container_name: microservices-dev-control-center
     restart: always
     depends_on:
