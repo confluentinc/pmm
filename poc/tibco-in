@@ -1,0 +1,1 @@
+Struct{messageID=ID:E4EMS-SERVER.15F9B45B14:1,messageType=text,timestamp=1604011794295,deliveryMode=2,destination=Struct{destinationType=queue,name=connector-quickstart},redelivered=false,expiration=0,priority=4,properties={JMSXDeliveryCount=Struct{propertyType=integer,integer=1}},text={"transaction": "PAYMENT", "amount": "141.7", "timestamp": "Thu Oct 29 22:49:54 UTC 2020" }}

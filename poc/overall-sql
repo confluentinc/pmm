@@ -1,0 +1,3 @@
+ksql> create stream transactions with (kafka_topic='transactions') as select * from tibcotransactions;
+ksql> insert into transactions select * from rabbittransactions;
+ksql> select * from transactions emit changes;
