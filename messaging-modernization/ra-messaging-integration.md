@@ -412,6 +412,8 @@ print topic ‘from-rabbit’ from beginning emit changes;
 Demonstration: Ingest and Merge
 -------------------------------
 
+[Video on ingest and merge](https://videos.confluent.io/watch/hojr9MdU5KJELi7qLHRcAZ?) 
+
 ### Run the Demo
 
 1.  Determine which message queues you’d like to run
@@ -593,6 +595,8 @@ You can also view the overall flow in Confluent Control Center:
 
 Demonstration: Joining Streams
 ------------------------------
+
+[Video on Joining Streams](https://videos.confluent.io/watch/hojr9MdU5KJELi7qLHRcAZ?)
 
 In addition to scripts which produce a single transaction stream,
 scripts are provided to generate a stream of transactions and a batch of
