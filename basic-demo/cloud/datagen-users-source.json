@@ -1,0 +1,14 @@
+{
+  "name": "UsersSourceConnector",
+  "config": {
+    "connector.class": "DatagenSource",
+    "name": "UsersSourceConnector",
+    "kafka.api.key": "<your ccloud key>",
+    "kafka.api.secret": "<your ccloud secret>",
+    "kafka.topic": "users",
+    "output.data.format": "JSON",
+    "quickstart": "USERS",
+    "max.interval": "1000",
+    "tasks.max": "1"
+  }
+}

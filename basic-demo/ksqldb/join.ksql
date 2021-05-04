@@ -1,0 +1,11 @@
+create stream jnd as 
+ SELECT users.userid, 
+        users.regionid, 
+        users.gender, 
+        trades.symbol, 
+        trades.price, 
+        trades.account, 
+        trades.quantity 
+ FROM trades left join users on users.userid = trades.userid
+ emit CHANGES;
+

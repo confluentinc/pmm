@@ -1,0 +1,8 @@
+create stream trades (side VARCHAR,
+                      quantity VARCHAR,
+                      symbol VARCHAR,
+                      price VARCHAR,
+                      account VARCHAR,
+                      userid VARCHAR) 
+       with (KAFKA_TOPIC='trades', VALUE_FORMAT='JSON');
+

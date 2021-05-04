@@ -1,0 +1,14 @@
+{
+  "name": "TradesSourceConnector",
+  "config": {
+    "connector.class": "DatagenSource",
+    "name": "TradesSourceConnector",
+    "kafka.api.key": "<your ccloud key>",
+    "kafka.api.secret": "<your ccloud secret>",
+    "kafka.topic": "trades",
+    "output.data.format": "JSON",
+    "quickstart": "STOCK_TRADES",
+    "max.interval": "100",
+    "tasks.max": "1"
+  }
+}

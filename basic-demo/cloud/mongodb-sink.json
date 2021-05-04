@@ -1,0 +1,14 @@
+{
+    "connector.class": "MongoDbAtlasSink",
+    "name": "mongodb-sink",
+    "kafka.api.key": "<your ccloud key>",
+    "kafka.api.secret": "<your ccloud secret>",
+    "input.data.format" : "JSON",
+    "connection.host": "<mongodb atlas host>",
+    "connection.user": "<mongodb atlas userid>",
+    "connection.password": "<mongodb atlas password>",
+    "topics": "JND",
+    "database": "Data4Atlas",
+    "collection": "kafka",
+    "tasks.max": "1"
+}

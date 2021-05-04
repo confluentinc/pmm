@@ -1,0 +1,6 @@
+create table users (registertime BIGINT,
+                     userid VARCHAR PRIMARY KEY,
+                     regionid VARCHAR,
+                     gender VARCHAR) 
+WITH (KAFKA_TOPIC='users', VALUE_FORMAT='JSON');
+
