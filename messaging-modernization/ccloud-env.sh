@@ -9,10 +9,10 @@ IBMMQ_TEMPLATE=scripts/ibmmq/create-ibmmq-cc-connector.sh.template
 IBMMQ_OUT=scripts/ibmmq/create-ibmmq-cc-connector.sh
 
 RABBIT_TEMPLATE=scripts/rabbit/create-rabbit-cc-connector.sh.template
-RABBIT_OUT=scripts/rabbit/create-rabbit-connector.sh
+RABBIT_OUT=scripts/rabbit/create-rabbit-cc-connector.sh
 
 TIBCO_TEMPLATE=scripts/tibco/create-tibco-cc-connector.sh.template
-TIBCO_OUT=scripts/tibco/create-tibco-connector.sh
+TIBCO_OUT=scripts/tibco/create-tibco-cc-connector.sh
 
 #
 # Generate docker-compose file which specificies your confluent cloud cluster
