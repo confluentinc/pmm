@@ -1,0 +1,2 @@
+Now that we have a functional cluster link, we'll create a topic and a mirror
+topic.

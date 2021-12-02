@@ -1,0 +1,13 @@
+consumer.offset.sync.enable=true
+consumer.offset.group.filters={"groupFilters": [{"name": "*","patternType": "LITERAL","filterType": "INCLUDE"}]}
+consumer.offset.sync.ms=1000
+
+acl.sync.enable=true
+acl.sync.ms=1000
+acl.filters={ "aclFilters": [ { "resourceFilter": { "resourceType": "any", "patternType": "any" }, "accessFilter": { "operation": "any", "permissionType": "any" } } ] }
+
+topic.config.sync.ms=1000
+
+security.protocol=SASL_SSL
+sasl.mechanism=PLAIN
+sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username="LINK_API_KEY" password="LINK_API_SECRET";

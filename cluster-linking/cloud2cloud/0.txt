@@ -1,0 +1,21 @@
+In this demonstration, we'll establish a cluster link between two
+clusters in Confluent Cloud. We'll identify one cluster as a primary
+and one cluster as a secondary, or DR, cluster. 
+
+We'll mirror relevant data over the link including topics, ACLs,
+and consumer group offsets. 
+
+We'll follow the best practices for role based access control in Confluent
+Cloud. 
+
+We'll invoke an outage on the primary cluster, using a failover command to
+convert our mirrored topics to regular topics. Then we'll move consumers
+and producers over to the recovery cluster to continue operations.
+
+REQUIRED:
+-Create two clusters in Confluent Cloud, a source cluster and a 
+recovery cluster. The source cluster can be basic or better. The
+recovery cluster must be dedicated.
+
+-Configure the confluent cloud CLI following the directions provided
+for Confluent Cloud 

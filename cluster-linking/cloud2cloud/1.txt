@@ -1,0 +1,11 @@
+First, create two clusters in Confluent Cloud: the primary cluster
+and the DR cluster. You can use the Confluent Cloud UI or the Confluent
+Cloud CLI for this.
+
+The DR cluster should be a Dedicated cluster with public internet endpoints.
+
+The primary cluster can be any type of cluster. To properly simulate a
+zone outage, it should be a different availability zone as the DR cluster.
+
+Once the clusters are created, continue and we will collect the required
+information.

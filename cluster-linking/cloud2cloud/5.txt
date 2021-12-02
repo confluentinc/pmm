@@ -1,0 +1,2 @@
+Next we're going to generate a config file for the cluster link that will include
+the API key and Secret that was just generated for the cluster link.

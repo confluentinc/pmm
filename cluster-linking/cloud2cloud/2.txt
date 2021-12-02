@@ -1,0 +1,4 @@
+Edit the file env.sh with that information now, but keep that file up because
+we'll be generating service accounts next.
+
+

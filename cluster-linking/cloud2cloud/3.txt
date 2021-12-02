@@ -1,0 +1,2 @@
+Edit env.sh now to include the two service accounts we just created. Next,
+we'll create the API keys required to use those service accounts.

@@ -1,0 +1,5 @@
+Copy templates/keys.sh to the current directory and edit it to include the 
+keys and secrets that were just generated.
+
+When we continue, we're going to create the ACLs required for cluster linking
+to work securely.
