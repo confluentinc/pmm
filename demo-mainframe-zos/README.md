@@ -48,4 +48,4 @@ From ZD&T, run
 
 ## Related Content
 
-For more information, see the [Confluent documentation](https://docs.confluent.io/home/overview.html).
+For more information, see the [Confluent documentation](https://docs.confluent.io/home/overview.html). 
