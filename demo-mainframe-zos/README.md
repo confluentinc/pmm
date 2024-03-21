@@ -46,3 +46,6 @@ From ZD&T, run
     
     ./connect-standalone ../etc/kafka/connect-standalone.properties ../etc/kafka/mq-source.properties
 
+## Related Content
+
+For more information, see the [Confluent documentation](https://docs.confluent.io/home/overview.html). 
